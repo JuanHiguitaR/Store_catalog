@@ -37,6 +37,7 @@ public class Store {
         // Add new product
         else{
             this.products[prodCount] = products;
+            this.prodCount ++;
             System.out.println("Add new product successful!✅");
         }
 
